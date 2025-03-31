@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title></title><meta name="description" content="">
+    <link rel="preload" href="/ziyulab.github.io/assets/style-DWJY7ZrO.css" as="style"><link rel="stylesheet" href="/ziyulab.github.io/assets/style-DWJY7ZrO.css">
+    <link rel="modulepreload" href="/ziyulab.github.io/assets/app-Djj192HG.js"><link rel="modulepreload" href="/ziyulab.github.io/assets/404.html-BeO1KqS4.js">
+    <link rel="prefetch" href="/ziyulab.github.io/assets/index.html-BcUcNdws.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-adfdca2c><main class="page" data-v-adfdca2c><div vp-content data-v-adfdca2c><h1 data-v-adfdca2c>404</h1><blockquote data-v-adfdca2c>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/ziyulab.github.io/" data-v-adfdca2c>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/ziyulab.github.io/assets/app-Djj192HG.js" defer></script>
+  </body>
+</html>
