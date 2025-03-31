@@ -1,0 +1,21 @@
+{
+  "name": "ziyu_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.0",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/theme-default": "2.0.0-rc.90",
+    "sass-embedded": "^1.86.0",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.20"
+  }
+}
