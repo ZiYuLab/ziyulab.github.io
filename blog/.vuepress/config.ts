@@ -8,13 +8,13 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
+      title: "ziyu(rain in the night)",
+      description: "EN-US is not supported yet",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "子夜的雨",
+      description: "子夜的雨，是最靠近心灵的地方",
     },
   },
 
